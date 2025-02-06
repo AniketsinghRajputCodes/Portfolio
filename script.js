@@ -109,3 +109,15 @@ pages.forEach((_,index) => {
 
     }, (index + 1) * 200 + 2100)
 })
+
+
+
+
+
+var typed = new Typed(".text", {
+    strings: ["Data Scinetist", "Web Developer", "Data Analyst", "Investor"] , // Add more skills here
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+    startDelay: 1500
+});
